@@ -43,4 +43,4 @@ print(data_frame.loc[[0,2]])
 print(data_frame.iloc[[1,3]])
 
 #select  particular rows and cloumns
-
+print(data_frame.iloc[[0,3]][["Name", "City"]])
