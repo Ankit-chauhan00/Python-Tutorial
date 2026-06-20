@@ -48,6 +48,15 @@ print(data_frame.drop(["RollNo","Age"], axis=1))
 
 print(
     data_frame.loc[
+        [1,3],
+        ["Country", "Income"]
+    ]
+)
+
+
+#selecting a particular instace of rows and colums
+print(
+    data_frame.loc[
         [0,1],
         ["Name", "Country"]
     ]
